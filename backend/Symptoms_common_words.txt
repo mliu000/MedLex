@@ -1,0 +1,49 @@
+Fever: hot burning warm sweating high temperature chills
+Fatigue: tired sleepy exhausted drained drowsy weary sluggish
+Cough: hacking throat itchy dry hoarse barking phlegm
+Headache: pain pounding throbbing pressure sharp aching head
+Nausea: sick queasy vomiting stomach upset dizzy woozy
+Dizziness: spinning lightheaded woozy faint off-balance vertigo unsteady
+Chills: cold shivering freezing goosebumps trembling icy
+Runny Nose: dripping mucus snot sniffles leaky nasal discharge
+Sore Throat: scratchy irritated raw swollen hoarse dry painful
+Shortness of Breath: gasping panting struggling wheezing chest tightness
+Chest Pain: sharp stabbing crushing heavy tight burning squeezing
+Back Pain: aching stiff sore tender throbbing sharp pulling
+Abdominal Pain: cramps aching stomach ache bloated stabbing sharp tightness
+Diarrhea: loose watery frequent upset stomach runs
+Constipation: blocked hard stool infrequent dry sluggish bowel movement
+Muscle Pain: sore aching stiff tender cramping pulling tight
+Joint Pain: stiff swollen aching tender throbbing sharp immobile
+Swelling: puffy inflamed bloated enlarged tender redness
+Rash: itchy spots red irritated bumps hives blotches breakout
+Itching: scratchy irritated red crawling tingling burning stinging
+Weakness: tired shaky drained exhausted limp low-energy powerless
+Vomiting: throw up sick heaving nausea queasy retching bile
+Fainting: pass out dizzy blackout woozy collapse unconsciousness
+Blurred Vision: unclear foggy out-of-focus double seeing hazy
+Chest Tightness: constricted squeezing heavy sharp hard to breathe
+Heart Palpitations: racing pounding fluttering skipping irregular beating thumping
+Sweating: dripping damp clammy sticky hot perspiring cold sweat
+Cold Hands: freezing icy numb tingly pale blue frosty
+Frequent Urination: peeing often constant urge weak stream bladder
+Dry Mouth: parched thirsty sticky rough cracked cottonmouth dehydrated
+Loss of Taste: bland nothing flavorless numb no flavor dull
+Loss of Smell: no scent blocked nose odorless reduced muted
+Hair Loss: thinning falling out shedding bald patchy strands receding
+Weight Loss: thin frail shrinking lighter loose clothes appetite loss
+Weight Gain: heavy bloated swollen appetite increased larger tight clothes
+Hearing Loss: muffled ringing quiet reduced blocked deaf dull
+Ear Pain: sharp ringing plugged sore throbbing ache popping
+Numbness: tingling pins and needles no feeling dead heavy
+Tingling: pins needles crawling numb itchy zinging prickly sensation
+Burning Sensation: hot stinging sharp painful irritated scalding tingly
+Bruising: black blue tender purple sore swollen painful discolored
+Bleeding: blood dripping cut raw wound open spotty red
+Pale Skin: white light colorless ghostly anemic chalky faded
+Yellow Skin: jaundice yellowing tinted discolored pale sickly dull
+Dehydration: thirsty dry mouth cracked tired dizzy low water
+Difficulty Swallowing: choking stuck throat lump pain gagging scratchy
+Hives: itchy welts raised bumps red rash blotchy breakout
+Stomach Pain: ache cramps upset bloated sharp queasy stabbing
+Heartburn: burning chest acid reflux sour upset hot burping
