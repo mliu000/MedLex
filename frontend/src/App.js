@@ -4,6 +4,7 @@ import './App.css';
 import steth from './logoicon.png';
 
 
+
 const TextBox = ({ loading, setLoading, setResponse }) => {
   const [text, setText] = useState("");
 
@@ -57,6 +58,8 @@ const TextBox = ({ loading, setLoading, setResponse }) => {
     </div>
   );
 };
+
+
 
 const Header = ({ loading }) => {
   if (loading) return null; // Do not render if loading is true

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "concurrently": "^9.1.2",
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -13,9 +14,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "concurrently \"npm run frontend\" \"npm run backend\"",
-    "frontend": "react-scripts start",
-    "backend": "node startBackend.js"
+    "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
+    "start-frontend": "webpack serve --mode development",
+    "start-backend": "cd ../backend && mvn spring-boot:run"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +36,4 @@
       "last 1 safari version"
     ]
   }
-  
 }
