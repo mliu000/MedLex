@@ -1,0 +1,49 @@
+Fever: An elevated body temperature, often caused by infection or illness.
+Fatigue: A state of extreme tiredness or lack of energy.
+Cough: A reflex action to clear the throat of mucus or irritants.
+Headache: Pain or discomfort in the head or upper neck area.
+Nausea: The sensation of wanting to vomit.
+Dizziness: A feeling of lightheadedness, unsteadiness, or loss of balance.
+Chills: Feeling of coldness accompanied by shivering, often due to fever.
+Runny Nose: Excess nasal discharge often caused by colds or allergies.
+Sore Throat: Pain or irritation in the throat, often due to infection.
+Shortness of Breath: Difficulty in breathing or feeling out of breath.
+Chest Pain: Discomfort or pain in the chest, potentially serious.
+Back Pain: Pain or discomfort in the back, ranging from mild to severe.
+Abdominal Pain: Pain or discomfort in the stomach area, often cramping.
+Diarrhea: Loose or watery stools occurring frequently.
+Constipation: Difficulty in passing stool or infrequent bowel movements.
+Muscle Pain: Discomfort or pain in the muscles, often from overuse or tension.
+Joint Pain: Pain, stiffness, or discomfort in the joints.
+Swelling: Enlargement or puffiness in an area, often due to inflammation.
+Rash: A noticeable change in skin appearance, often red or irritated.
+Itching: An uncomfortable sensation causing the desire to scratch.
+Weakness: Reduced strength or energy, often a symptom of other issues.
+Vomiting: Forceful expulsion of stomach contents through the mouth.
+Fainting: Sudden loss of consciousness, usually temporary.
+Blurred Vision: Difficulty seeing clearly, often appearing out-of-focus.
+Chest Tightness: A feeling of constriction or pressure in the chest.
+Heart Palpitations: A noticeable irregular or rapid heartbeat.
+Sweating: The body’s release of moisture to regulate temperature.
+Cold Hands: A sensation of cold in the hands, often due to poor circulation.
+Frequent Urination: The need to urinate more often than usual.
+Dry Mouth: A lack of saliva causing dryness or stickiness in the mouth.
+Loss of Taste: Reduced or complete inability to perceive flavors.
+Loss of Smell: Reduced or complete inability to detect odors.
+Hair Loss: Loss of hair from the scalp or other areas.
+Weight Loss: Reduction in body weight, often unintentional.
+Weight Gain: Increase in body weight, sometimes accompanied by bloating.
+Hearing Loss: Partial or complete inability to hear.
+Ear Pain: Discomfort or pain in the ear, often due to infection.
+Numbness: Loss of sensation or feeling in an area.
+Tingling: A prickling or pins-and-needles sensation.
+Burning Sensation: A painful feeling of heat or irritation in an area.
+Bruising: Discolored skin from blood leaking due to an injury.
+Bleeding: Loss of blood from the circulatory system due to injury.
+Pale Skin: Unusually light or white skin tone, often indicating illness.
+Yellow Skin: Discoloration of the skin to yellow, often due to jaundice.
+Dehydration: A condition caused by insufficient water in the body.
+Difficulty Swallowing: Trouble or pain when attempting to swallow.
+Hives: Raised, itchy welts on the skin, often due to an allergic reaction.
+Stomach Pain: Pain or discomfort in the abdominal area.
+Heartburn: A burning pain in the chest caused by acid reflux.
