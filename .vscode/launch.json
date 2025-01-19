@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Medlex-Hackathon rebuild_1930dbdb"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot App",
+            "request": "launch",
+            "mainClass": "com.example.fullstackapp.Main",
+            "classPaths": [
+                "libs/*"
+            ],
+            "vmArgs": "-Dspring.profiles.active=dev"
+        }
+    ]
+}
