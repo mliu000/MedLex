@@ -29,7 +29,7 @@ const TextBox = ({ loading, setLoading, setResponse }) => {
 
   async function processInput(input) {
     try {
-      const response = await fetch(`/api/symptoms/${input}`);
+      const response = await fetch(`http://localhost:8080/api/symptoms/${input}`);
       if (response.ok) {
         const data = await response.json();
         return data; // Return the data containing top 4 symptoms
