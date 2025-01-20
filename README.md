@@ -6,7 +6,7 @@ This project was originally built in a group during HackCamp 2024. Implementatio
 
 Therefore, I decided to reimplement the MedLex project using Java as the backend, as it is more compatible with JS. For the API, the choice was SpringBoot. The functionality is exactly the same, with minor edits to the JS to adhere Java and Springboot. Java is also more stable when it comes to exception and error handling. 
 
-For large databases however, it is likely a good idea to still use C++ (even though it is complicated) because the algorithm to retireve the symptoms is computationally heavy. For each input word in the set of imput words (let say size m) you have to iterate through all the symptoms (let's say size n). Therefore, the runtime would be O(mn), which could slightly be faster in C++ due to no garbage collection in the background (although I think the algorithm can still be further optimized).
+For large databases however, it is likely a good idea to still use C++ (even though it is complicated) because the algorithm to retireve the symptoms is computationally heavy. For each input word in the set of imput words (let say size m) you have to iterate through all the symptoms (let's say size n). Therefore, the runtime is be O(mn), which could slightly be faster in C++ due to no garbage collection in the background (although I think the algorithm can still be further optimized).
 
 *How to operate:**
 
