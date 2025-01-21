@@ -2,6 +2,8 @@
 
 *Brief description*
 
+Full project description in the original working repo: https://github.com/rayzelltj/HackCamp2024_MedLex.git
+
 This project was originally built in a group during HackCamp 2024. Implementation wise, the frontend was implemented React JS, while the backend in C++. However, we then realized that C++ isn't the best choice of language because it requires memory management (making it more prone to bugs), isn't very compatible with JS when it comes to API's. In the short period of time given, we had to implement our C++ backend to run in a polling fashion while the program was running the whole time. It basically checks the json file (the one we use to communicate between front and back end) to repeatedly see if there is any change, and if there is, the C++ runs the program, reducing efficiency. Also, the benefits of the speed of C++ are negligible, since our database of symptoms is very small. 
 
 Therefore, I decided to reimplement the MedLex project using Java as the backend, as it is more compatible with JS. For the API, the choice was SpringBoot. The functionality is exactly the same, with minor edits to the JS to adhere Java and Springboot. Java is also more stable when it comes to exception and error handling. 
@@ -14,5 +16,4 @@ To start the program, navigate to the **frontend** folder in the terminal, then 
 
 *Credits:*
 
-**Teammates:** Ryan Zhang, Rayzell Tjandra, Kevin Zhai (all CS students studying at UBC) <br>
-**Original working repo:** https://github.com/rayzelltj/HackCamp2024_MedLex.git *(please refer to this directory )
+**Teammates:** Ryan Zhang, Rayzell Tjandra, Kevin Zhai (all CS students studying at UBC)
