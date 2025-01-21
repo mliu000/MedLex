@@ -68,7 +68,7 @@ public class SymptomsTest {
         }
 
         // Case 4: List is not full size
-        List<Pair<String, String>> list4 = symptoms.getTop4Symptoms("cracked");
+        List<Pair<String, String>> list4 = symptoms.getTop4Symptoms("% cracked %");
         assertFalse(list4 == null);
         assertEquals(2, list4.size());
         List<Pair<String, String>> expected4 = new ArrayList<>();

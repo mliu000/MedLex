@@ -54,7 +54,7 @@ public class Symptoms {
         // From the string input, get the wordset of distinct words
         Set<String> wordSet = inputToWordSet(input);
         // Return null if the wordSet is empty
-        if (wordSet.isEmpty()) {
+        if (wordSet == null) {
             return null;
         }
 
@@ -69,10 +69,6 @@ public class Symptoms {
 
         // If symptomCount is not empty, sort it, then get the top 3 symptoms, then the definitions
         sort(symptomCount);
-
-        for (Pair<String, Integer> s: symptomCount) {
-            System.out.println(s.getFirst() + ": " + s.getSecond());
-        }
         return getTopSympDefs(symptomCount);
     }
 
@@ -116,7 +112,12 @@ public class Symptoms {
     */
     private Set<String> inputToWordSet(String input) {
         // Filters the string
-        input = input.trim().replaceAll("[^a-zA-Z\\s]", "").toLowerCase(); 
+        input = input.replaceAll("[^a-zA-Z\\s]", "").trim().toLowerCase(); 
+
+        // Return null if the input is ""
+        if (input == "") {
+            return null;
+        }
 
         // Splits the string into array, immediately puts it into the set
         Set<String> wordSet = new HashSet<>();

@@ -15,4 +15,4 @@ To start the program, navigate to the **frontend** folder in the terminal, then 
 *Credits:*
 
 **Teammates:** Ryan Zhang, Rayzell Tjandra, Kevin Zhai (all CS students studying at UBC) <br>
-**Original working repo:** https://github.com/rayzelltj/HackCamp2024_MedLex.git 
+**Original working repo:** https://github.com/rayzelltj/HackCamp2024_MedLex.git *(please refer to this directory )

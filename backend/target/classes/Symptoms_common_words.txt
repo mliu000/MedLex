@@ -1,5 +1,5 @@
 Fever: hot burning warm sweating high temperature chills
-Fatigue: tired sleepy exhausted drained drowsy weary sluggish
+Fatigue: tired sleepy sleep exhausted drained drowsy weary sluggish
 Cough: hacking throat itchy dry hoarse barking phlegm
 Headache: pain pounding throbbing pressure sharp aching head
 Nausea: sick queasy vomiting stomach upset dizzy woozy
