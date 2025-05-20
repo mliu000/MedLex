@@ -10,6 +10,10 @@ Therefore, I decided to reimplement the MedLex project using Java as the backend
 
 For large databases however, it is likely a good idea to still use C++ (even though it is complicated) because the algorithm to retireve the symptoms is computationally heavy. For each input word in the set of imput words (let say size m) you have to iterate through all the symptoms (let's say size n). Therefore, the runtime is be O(mn), which could slightly be faster in C++ due to no garbage collection in the background (although I think the algorithm can still be further optimized).
 
+<img src="Readme_images/Screenshot 2025-05-20 133510.png" alt="Gameplay Screenshot" width="400"/>
+
+<img src="Readme_images/Screenshot 2025-05-20 133536.png" alt="Gameplay Screenshot" width="400"/>
+
 *How to operate:**
 
 To start the program, navigate to the **frontend** folder in the terminal, then type **npm start**.
