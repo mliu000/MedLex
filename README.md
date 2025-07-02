@@ -50,7 +50,7 @@ The algorithm itself can still be further optimized regardless of language.
 
 ### Requirements:
 
-- Make sure you have ```Node Package Manager (NPM)``` and ```Node.js``` installed on local computer.
+- Make sure you have ```Node Package Manager (npm)``` and ```Node.js``` installed on local computer.
 
 ### Steps to run the application:
 
