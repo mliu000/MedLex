@@ -1,23 +1,58 @@
-# MedLex Hackcamp 2024 Rebuild
+# 🩺 MedLex – HackCamp 2024 Rebuild
 
-*Brief description*
+A full-stack medical symptom search tool originally developed at **HackCamp 2024** and later reimplemented for better architecture and efficiency and stability.
 
-Full project description in the original working repo: https://github.com/rayzelltj/HackCamp2024_MedLex.git
+> Full original repo: [HackCamp2024_MedLex](https://github.com/rayzelltj/HackCamp2024_MedLex.git)
 
-This project was originally built in a group during HackCamp 2024. Implementation wise, the frontend was implemented React JS, while the backend in C++. However, we then realized that C++ isn't the best choice of language because it requires memory management (making it more prone to bugs), isn't very compatible with JS when it comes to API's. In the short period of time given, we had to implement our C++ backend to run in a polling fashion while the program was running the whole time. It basically checks the json file (the one we use to communicate between front and back end) to repeatedly see if there is any change, and if there is, the C++ runs the program, reducing efficiency. Also, the benefits of the speed of C++ are negligible, since our database of symptoms is very small. 
+## Project Background
 
-Therefore, I decided to reimplement the MedLex project using Java as the backend, as it is more compatible with JS. For the API, the choice was SpringBoot. The functionality is exactly the same, with minor edits to the JS to adhere Java and Springboot. Java is also more stable when it comes to exception and error handling. 
+- **Frontend**: React.js  
+- **Original Backend**: C++ (polling-based JSON communication)
 
-For large databases however, it is likely a good idea to still use C++ (even though it is complicated) because the algorithm to retireve the symptoms is computationally heavy. For each input word in the set of imput words (let say size m) you have to iterate through all the symptoms (let's say size n). Therefore, the runtime is be O(mn), which could slightly be faster in C++ due to no garbage collection in the background (although I think the algorithm can still be further optimized).
+### C++ Limitations Encountered:
 
-<img src="Readme_images/Screenshot 2025-05-20 133510.png" alt="Gameplay Screenshot" width="400"/>
+- Manual memory management → prone to bugs under time constraints
+- Poor JS integration → no clean API interface
+- Required constant polling of a shared `.json` file to detect changes to trigger C++ backend to run.
+- C++ speed benefits were negligible due to the small symptom dataset and polynomial time algorithm.
 
-<img src="Readme_images/Screenshot 2025-05-20 133536.png" alt="Gameplay Screenshot" width="400"/>
 
-*How to operate:**
+## Rebuild:
 
-To start the program, navigate to the **frontend** folder in the terminal, then type **npm start**.
+To address these issues, I reimplemented the backend using **Java + Spring Boot**, while keeping the **frontend nearly unchanged**.
 
-*Credits:*
+### Improvements with Java:
 
-**Teammates:** Ryan Zhang, Rayzell Tjandra, Kevin Zhai (all CS students studying at UBC)
+- Built a clean, RESTful API to replace JSON polling from C++ backend, which is error prone.
+- Code is more maintainable and scalable
+
+
+## Performance Consideration:
+
+The core algorithm performs:
+
+- For each input word (`m`), iterate through all symptom entries (`n`)
+- **Runtime: `O(mn)`**
+
+While Java handles this well for small/medium datasets, **C++ could still be beneficial** for extremely large inputs due to:
+
+- Manual memory control
+- No garbage collection overhead
+
+The algorithm itself can still be further optimized regardless of language.
+
+## Screenshots:
+
+<img src="Readme_images/Screenshot 2025-05-20 133510.png" alt="Search Result View" width="400"/><br>
+<img src="Readme_images/Screenshot 2025-05-20 133536.png" alt="Input View" width="400"/>
+
+## Setup instructions:
+
+### Requirements:
+
+- Make sure you have ```Node Package Manager (NPM)``` and ```Node.js``` installed on local computer.
+
+### Steps to run the application:
+
+- Clone the repository
+- In ```/frontend```, type ```npm start```. The React.js UI will launch shortly.
